@@ -1,0 +1,125 @@
+.progress.auto-progress > .bar {
+  -webkit-animation: progress-bar-auto 2s linear infinite;
+     -moz-animation: progress-bar-auto 2s linear infinite;
+      -ms-animation: progress-bar-auto 2s linear infinite;
+       -o-animation: progress-bar-auto 2s linear infinite;
+          animation: progress-bar-auto 2s linear infinite;  
+}
+
+/* this animation is for progress bars that are active */
+.progress.active.auto-progress > .bar {
+  -webkit-animation: progress-bar-auto-active 2s linear infinite;
+     -moz-animation: progress-bar-auto-active 2s linear infinite;
+      -ms-animation: progress-bar-auto-active 2s linear infinite;
+       -o-animation: progress-bar-auto-active 2s linear infinite;
+          animation: progress-bar-auto-active 2s linear infinite;  
+}
+
+@keyframes progress-bar-auto {
+  0% {
+    width: 50%;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@keyframes progress-bar-auto-active {
+  0% {
+    width: 50%;
+    background-position: 40px 0;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+    background-position: 0 0;
+  }
+}
+@-webkit-keyframes progress-bar-auto {
+  0% {
+    width: 50%;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-webkit-keyframes progress-bar-auto-active {
+  0% {
+    width: 50%;
+    background-position: 40px 0;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+    background-position: 0 0;
+  }
+}
+@-moz-keyframes progress-bar-auto {
+  0% {
+    width: 50%;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+@-moz-keyframes progress-bar-auto-active {
+  0% {
+    width: 50%;
+    background-position: 40px 0;
+  }
+  25% {
+    width: 100%;
+  }
+  50% {
+    width: 50%;
+  }
+  75% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+    background-position: 0 0;
+  }
+}

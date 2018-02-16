@@ -1,0 +1,266 @@
+
+h1{
+    font-family: 'Lato', sans-serif !important;
+    color: white !important;
+}
+
+h4{
+    font-family: 'Lato', sans-serif !important;
+    color: white;
+}
+
+section h1{
+    margin-bottom: 30px;
+}
+/*
+Navbar
+*/
+
+.navbar-default {
+    background-color: #330066 !important;/* #330066 */
+    border-color: #330066 !important;
+}
+.navbar-nav{
+    font-family: 'Lato', sans-serif;
+    margin: 30px 100px 0 !important; 
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    color: #cc33ff !important;
+}
+
+.brand-logo img{
+    margin: -15px 0 0 50px !important;
+}
+
+/*
+Media Queries
+*/
+
+@media(max-width:768px){
+ .brand-logo img{
+    margin: -10px 0 0 15px !important;
+}   
+.navbar-nav{
+    margin:0 !important;
+}
+.navbar-toggle{
+    margin-top: 60px  !important;
+}
+.btn-default{
+    margin-top: 10px;
+}
+#googleMap{
+    margin-top: 20px;
+}
+.about-blocks{
+    margin-top: 20px;
+}
+#location{
+    margin-top: 20px;
+}
+
+#footer{
+    padding-bottom: 20px;
+}
+}
+
+@media(max-width:1200px){
+ .brand-logo img{
+    margin: -15px 0 0 15px !important;
+}   
+.navbar-nav{
+    margin: 30px 0 5px 0; 
+    /*margin:0 !important;*/
+}
+.navbar-toggle{
+    margin-top: 60px  !important;
+}
+.btn-default{
+    margin-top: 10px;
+}
+#googleMap{
+    margin-top: 20px;
+}
+.about-blocks{
+    margin-top: 20px;
+}
+#location{
+    margin-top: 20px;
+}
+#footer{
+    padding-bottom: 20px;
+}
+}
+
+/*
+Track Section
+*/
+
+#slider{
+    background-image: url("../img/bg.jpg");
+    width: 100% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+#slider .item{
+    color: white !important;
+    padding: 300px 0;
+    height:650px !important;
+}
+
+.carousel-indicators li{
+    background-color: white !important;
+    border: 3px solid #cc33ff !important;
+    margin: 5px !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 20px !important;
+}
+
+.carousel-indicators .active{
+    background-color: #cc33ff !important;
+    /*border: 1px solid #660099 !important;*/
+    /*margin: 5px !important;*/
+}
+
+.btn{
+    font-family: 'Lato', sans-serif;
+}
+.btn-default{
+    background-color: #cc33ff !important;
+    border-color: #cc33ff !important;
+    color: white !important;
+}
+.btn-default:hover{
+    background-color: #9933cc !important;
+    border-color: #9933cc !important;
+}
+
+.btn-default:active{
+    background-color: #cc66ff !important;
+    border-color: #cc66ff !important;
+}
+
+/*
+About Us
+*/
+#about-us
+{
+    padding: 100px 0 50px 0;
+    background: white;
+}
+.about-blocks{
+    height: fit-content;
+    border-radius: 10px;
+    border: 5px #cc66ff solid;
+    padding: 30px;
+    /*background-color: #cc66ff;
+    opacity: 0.2;*/
+}
+.about-blocks p{
+    word-wrap: break-word;
+}
+
+/*
+Address
+*/
+#co-address{
+    background-color: rgba(204,102,255,0.5);
+    padding: 20px 0px 20px 0px;
+}
+.address{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    padding: 20px 20px 20px 20px;
+}
+
+.address h4{
+    color: black !important;
+}
+
+/*
+Contact Us
+*/
+
+#contact-us{
+    padding: 100px 0 100px 0;
+    background-color: #660099;
+    background-image: url('../img/overlay.png');
+    background-size: contain;
+}
+
+#contact-us-form .form-control{
+    margin-bottom:10px;
+}
+
+/*
+Footer
+*/
+#footer{
+    background-color: #330066 !important; 
+    border-color: #330066 !important;
+}
+
+#footer .container{
+    padding-top: 10px;
+}
+
+#footer p{
+    font-family: 'Lato', sans-serif !important;
+    color: white !important;
+}
+
+.fa {
+  padding: 5px !important;
+  font-size: 20px !important;
+  background: white !important;
+  color: black;
+  width: 30px !important;
+  height: 30px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  margin: 0 2px 0 2px!important;
+  border-radius: 50% !important;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+}
+
+.fa-twitter:hover {
+  color: #55ACEE;
+}
+
+/*
+Modal
+*/
+h4.modal-title{
+    color: black !important;
+}
+
+.modal .modal-body .container{
+    background-color: #cc66ff;/*#0066cc; */
+    border-radius: 5px;
+    width: 100%; 
+    padding: 20px 20px 20px 20px
+}
+
+.modal .modal-body .container #lb-status{
+    font-size: 20px;
+}
+
+table#shipping-details{
+    font-size: 15px;
+    color: white;
+    margin: 20px 20px 20px 20px;
+}
+
+table#shipping-details tr td{
+    padding-left: 10px;
+}

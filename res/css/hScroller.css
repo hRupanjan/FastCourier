@@ -1,0 +1,33 @@
+.i-wrapper{
+    height: 100%;/*imp*/
+    margin: 0;/*imp*/
+}
+
+.i-wrapper:hover{
+    cursor: pointer;/*imp*/
+    box-shadow: 0px 2px 5px;/*imp*/
+}
+
+.h-slider-carousal ul.item-carousal
+{
+    margin: 0;/*imp*/
+    padding: 0;/*imp*/
+    list-style-type: none;/*imp*/
+    text-align: center;/*imp*/
+    display: flex;/*imp*/
+}
+
+.h-slider-carousal ul.item-carousal li { 
+    display: inline;/*imp*/
+    float: left;/*imp*/
+    vertical-align: middle;/*imp*/
+    padding: 5px 5px 5px 5px;
+    word-wrap: break-word;/*imp*/
+}
+
+.h-slider-carousal
+{
+    overflow-x: hidden;/*imp*/
+    padding: 0;/*imp*/
+    margin: 0;/*imp*/
+}
